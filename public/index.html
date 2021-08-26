@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h2>Learn to code by watching others</h2>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </header>
+      <section class="content-form">
+        <div class="btn-con">
+          <button>
+            <p><span>Try it free 7 days</span> then</p>
+            <p>$20/mo. thereafter</p>
+          </button>
+        </div>
+        <div class="form-con">
+          <div class="form">
+            <!-- <form action="#"> -->
+            <div class="input-con">
+              <input
+                type="text"
+                name="First Name"
+                placeholder="First Name"
+                id="userFirstName"
+              />
+              <!-- <i id="error1" class="fas fa-exclamation-circle"></i> -->
+            </div>
+            <div class="input-con">
+              <input
+                type="text"
+                placeholder="Last Name"
+                name="Last Name"
+                id="userLastName"
+              />
+              <!-- <i id="error2" class="fas fa-exclamation-circle"></i> -->
+            </div>
+
+            <div class="input-con">
+              <input
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="Email Address"
+              />
+              <!-- <i id="error3" class="fas fa-exclamation-circle"></i> -->
+            </div>
+
+            <div class="input-con">
+              <input
+                type="password"
+                placeholder="Password"
+                name="Password"
+                id="password"
+              />
+              <!-- <i id="error4" class="fas fa-exclamation-circle"></i> -->
+            </div>
+
+            <input type="submit" value="CLAIM YOUR FREE TRIAL" />
+            <p>
+              By clicking the button, you are agreeing to our
+              <a href="">Terms and Services</a>
+            </p>
+            <!-- </form> -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b735554243.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
